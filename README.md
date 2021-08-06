@@ -4,6 +4,8 @@
 
 1. Clone this repo and install packages using npm `npm install` or yarn `yarn`
 2. Start the graphql server `yarn start` or `npm run start`
+3. Clone server repo and follow the steps `https://github.com/infynno-solutions/node-graphql-challenge` to start the dev server
+4. Once the NodeJs Graphql server is running you can start developing frontend
 
 ## Task
 

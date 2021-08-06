@@ -6,9 +6,11 @@ const Users = () => {
       <h1>Users</h1>
       <Table bordered hover striped responsive>
         <thead>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Email</th>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
         </thead>
         <tbody>{/* TODO: Retrieve all users and list them here */}</tbody>
       </Table>

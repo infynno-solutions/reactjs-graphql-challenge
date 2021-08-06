@@ -7,12 +7,14 @@ const Posts = () => {
       {/* TODO: Create actions (View Post, Update Post, Create Post, Delete Post) */}
       <Table bordered hover striped responsive>
         <thead>
-          <th>ID</th>
-          <th>Title</th>
-          <th>Content</th>
-          <th>Author Name</th>
-          <th>Created At</th>
-          <th>Actions</th>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Author Name</th>
+            <th>Created At</th>
+            <th>Actions</th>
+          </tr>
         </thead>
         <tbody>{/* TODO: Retrieve all posts and list here */}</tbody>
       </Table>
